@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.0">
+  <POU Name="MAIN" Id="{18c4447d-42c9-4014-8e80-2b23c3c004b7}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+
+	bON : BOOL;
+	diStep : INT;
+	bEndeInvisible : BOOL := TRUE;
+	bOK : BOOL := FALSE;
+	iPhase : REAL;
+	bNacht : BOOL;
+
+	(*Ampel Nord-Süd*)
+	bNS_rot : BOOL;
+	bNS_orange : BOOL;
+	bNS_gruen : BOOL;
+
+	(*Ampel West-Ost*)
+	bWO_rot : BOOL;
+	bWO_orange : BOOL;
+	bWO_gruen : BOOL;
+
+	(*Fussgängerampeln Nord-Süd*)
+	bFGNS_rot : BOOL;
+	bFGNS_gruen : BOOL;
+	bFG : BOOL;
+
+	(*Timer*)
+	t1 : TON;
+
+	t3 : TON;
+	t2 : TON;
+
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[t1();
+
+t3.IN := (t2.Q = FALSE);
+t2.IN := t3.Q;
+
+t3(PT:=t#1s);
+t2(PT:=t#1s);
+
+
+IF bON = TRUE AND diStep = 0
+THEN
+	diStep := 1000;
+
+ELSIF bOn = FALSE
+THEN
+	diStep := 0;
+END_IF
+
+
+CASE diStep OF
+
+0:
+(*Idle*)
+	bNS_rot:=FALSE;
+	bNS_orange := FALSE;
+	bNS_gruen := FALSE;
+
+	bWO_rot:=FALSE;
+	bWO_orange:=FALSE;
+	bWO_gruen:=FALSE;
+	bOK:=FALSE;
+	bEndeInvisible := TRUE;
+
+	bfgns_gruen := FALSE;
+	bfgns_rot:= FALSE;
+
+	t1.IN := FALSE;
+
+	iPhase := 0;
+
+
+
+
+1000:
+(*Grünphase Nord-Süd, Rotphase West-Ost*)
+	bNS_rot:=FALSE;
+	bNS_orange := FALSE;
+	bNS_gruen := TRUE;
+
+	bWO_rot:=TRUE;
+	bWO_orange:=FALSE;
+	bWO_gruen:=FALSE;
+	iPhase := 1;
+	bfgns_rot := TRUE;
+
+	t1.IN := TRUE;
+	t1.PT := T#10000ms;
+
+	IF bFG = TRUE
+	THEN
+		bfgns_gruen := TRUE;
+		bfgns_rot:= FALSE;
+	END_IF;
+
+	IF bNacht = TRUE
+	THEN
+		diStep:=6000;
+	END_IF
+
+	IF t1.Q AND bnacht = TRUE
+	THEN
+		diStep := 6000;
+	ELSIF t1.Q AND bNacht = FALSE
+	THEN
+		t1.IN := FALSE;
+		bfgns_gruen := FALSE;
+		bfgns_rot := TRUE;
+		bFG := FALSE;
+		diStep:= 2000;
+	END_IF;
+
+
+2000:
+(*Orangephase Nord-Süd*)
+
+	bNS_rot := FALSE;
+	bNS_orange := TRUE;
+	bNS_gruen := FALSE;
+
+	bWo_rot :=TRUE;
+	bWO_orange := TRUE;
+	bWO_gruen :=FALSE;
+
+	bFGNS_rot := TRUE;
+	bFGNS_gruen := FALSE;
+
+	iPhase := 2;
+
+	t1(IN := bNS_orange, PT := T#5000ms);
+
+		IF t1.Q
+		THEN
+			t1.IN := FALSE;
+			diStep:= 3000;
+	END_IF;
+
+
+3000:
+(*Rotphase Nord-Sued, Grünphase West-Ost*)
+
+	bNS_rot:=TRUE;
+	bNS_orange := FALSE;
+	bNS_gruen := FALSE;
+
+	bWO_rot:=FALSE;
+	bWO_orange:=FALSE;
+	bWO_gruen:=TRUE;
+	iPhase := 3;
+	bFGNS_rot := TRUE;
+
+	t1(IN := bNS_rot, PT := T#5000ms);
+
+	IF t1.Q
+	THEN
+		t1.IN := FALSE;
+		diStep:= 4000;
+	END_IF;
+
+4000:
+(*Rot-Orange-Phase Nord-Sued*)
+
+	bNS_rot:=TRUE;
+	bNS_orange := TRUE;
+	bNS_gruen := FALSE;
+
+	bWO_rot:=FALSE;
+	bWO_orange:=TRUE;
+	bWO_gruen:=FALSE;
+	bFGNS_rot := TRUE;
+	iPhase := 4;
+
+	t1(IN := bNS_rot, PT := T#5000ms);
+
+	IF t1.Q
+	THEN
+		t1.IN := FALSE;
+		diStep:= 1000;
+	END_IF;
+
+6000:
+(*Nachtmodus*)
+
+	bNS_rot:=FALSE;
+	bNS_orange := t3.Q;
+	bNS_gruen := FALSE;
+	
+	bWO_rot:=FALSE;
+	bWO_orange:= t3.Q;
+	bWO_gruen:=FALSE;
+
+	bFGNS_rot :=FALSE;
+	bFGNS_gruen := FALSE;
+
+	IF bNacht = FALSE
+	THEN
+		t1.IN := FALSE;
+		diStep:= 1000;
+	END_IF
+
+(*5000:
+(*Fenster Ende*)
+	bEndeInvisible := FALSE;
+	IF bOK
+	THEN
+		bEndeInvisible := TRUE;
+		bON := FALSE;
+		diStep := 0;
+	END_IF;*)
+
+END_CASE;
+
+
+]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="32" Count="182" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
