@@ -108,6 +108,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -136,11 +140,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value" t="Int16">0</v>
+                      <v n="Value" t="Int16">1</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value" t="Int16">160</v>
+                      <v n="Value" t="Int16">162</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -152,11 +156,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value" t="Int16">320</v>
+                      <v n="Value" t="Int16">321</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value" t="Int16">240</v>
+                      <v n="Value" t="Int16">242</v>
                     </o>
                     <o>
                       <v n="Id">494569607L</v>
@@ -223,6 +227,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -339,6 +347,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -471,6 +483,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -587,6 +603,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -702,6 +722,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -1394,6 +1418,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -2085,6 +2113,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -2687,6 +2719,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -3379,6 +3415,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -3498,6 +3538,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -3619,6 +3663,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -3738,6 +3786,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -3859,6 +3911,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -3978,6 +4034,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -4099,6 +4159,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -4218,6 +4282,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -4339,6 +4407,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -4458,6 +4530,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -4579,6 +4655,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -4699,6 +4779,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -4818,6 +4902,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -5334,6 +5422,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -5848,6 +5940,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -6364,6 +6460,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -6878,6 +6978,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -7394,6 +7498,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -7908,6 +8016,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -8424,6 +8536,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -8938,6 +9054,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -9454,6 +9574,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -9969,6 +10093,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -10483,6 +10611,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -11087,6 +11219,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -11689,6 +11825,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -12293,6 +12433,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -12895,6 +13039,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -13499,6 +13647,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -14101,6 +14253,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -14705,6 +14861,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -15307,6 +15467,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -15911,6 +16075,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -16426,6 +16594,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -16565,6 +16737,10 @@
                       <v n="Id">823443203L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -16680,6 +16856,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -16919,12 +17099,12 @@
                                       <v>TL_ElementProperties.Color</v>
                                       <v>EditorType</v>
                                       <v>Color</v>
-                                      <v>DescriptionTextId</v>
-                                      <v>TL_ElementProperties.Desc_AreaColor</v>
-                                      <v>''DOCU__COMMENT</v>
-                                      <v> The background color of the color area</v>
                                       <v>UseInitValue</v>
                                       <v></v>
+                                      <v>''DOCU__COMMENT</v>
+                                      <v> The background color of the color area</v>
+                                      <v>DescriptionTextId</v>
+                                      <v>TL_ElementProperties.Desc_AreaColor</v>
                                     </d>
                                     <v n="ConvDone">false</v>
                                   </o>
@@ -17112,6 +17292,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Meter"</v>
@@ -17227,6 +17411,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -17344,6 +17532,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -17459,6 +17651,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -17576,6 +17772,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -17691,6 +17891,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -17808,6 +18012,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -17924,6 +18132,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -18039,6 +18251,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -18555,6 +18771,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Polygon"</v>
@@ -18670,6 +18890,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -18787,6 +19011,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -18902,6 +19130,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -19019,6 +19251,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -19134,6 +19370,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -19251,6 +19491,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -19367,6 +19611,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -19482,6 +19730,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -19603,6 +19855,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -19722,6 +19978,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -19843,6 +20103,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -19962,6 +20226,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -20083,6 +20351,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -20202,6 +20474,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -20323,6 +20599,10 @@
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -20442,6 +20722,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -20582,6 +20866,10 @@
                       <v n="Id">823443203L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Button"</v>
@@ -20720,6 +21008,10 @@
                     <o>
                       <v n="Id">823443203L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -20860,6 +21152,10 @@
                       <v n="Id">823443203L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Button"</v>
@@ -20998,6 +21294,10 @@
                     <o>
                       <v n="Id">823443203L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
                     </o>
                   </l>
                 </o>
@@ -21138,6 +21438,10 @@
                       <v n="Id">823443203L</v>
                       <v n="Value">""</v>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Rectangle"</v>
@@ -21253,6 +21557,10 @@
                     <o>
                       <v n="Id">571893170L</v>
                       <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
                     </o>
                   </l>
                 </o>
@@ -21584,12 +21892,12 @@
                                       <v>TL_ElementProperties.Color</v>
                                       <v>EditorType</v>
                                       <v>Color</v>
-                                      <v>DescriptionTextId</v>
-                                      <v>TL_ElementProperties.Desc_AreaColor</v>
-                                      <v>''DOCU__COMMENT</v>
-                                      <v> The background color of the color area</v>
                                       <v>UseInitValue</v>
                                       <v></v>
+                                      <v>''DOCU__COMMENT</v>
+                                      <v> The background color of the color area</v>
+                                      <v>DescriptionTextId</v>
+                                      <v>TL_ElementProperties.Desc_AreaColor</v>
                                     </d>
                                     <v n="ConvDone">false</v>
                                   </o>
@@ -21729,6 +22037,10 @@
                         <v n="DescriptionUseParent">false</v>
                       </o>
                     </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Bar Display"</v>
@@ -21765,8 +22077,8 @@
                 <v>e4c13349-d518-4020-8da0-57ee2767d027</v>
                 <v>ContainsPoint</v>
                 <v>dc851a89-58ab-4c03-82c1-ede33ec80076</v>
-                <v>SetStaticState</v>
-                <v>13bfaf3e-e625-4a44-a9c9-0d1aa45e8bc5</v>
+                <v>HasInputAccess</v>
+                <v>7967d1de-302c-4b40-966f-6bab9f4b7a46</v>
                 <v>Update</v>
                 <v>81a1c76d-b333-4cfa-a562-bbbc3d49d257</v>
                 <v>GetTooltip</v>
@@ -21783,6 +22095,8 @@
                 <v>f372dfce-0c22-4df7-8dcb-f7dfc62a0ec2</v>
                 <v>SetClientData</v>
                 <v>6863fbe5-0167-4aba-a65b-4cebe40d8c7b</v>
+                <v>HasVisibilityAccessIntern</v>
+                <v>6b7ee91b-26c4-4dc3-ba21-a64250ba4d2d</v>
                 <v>GetInstance</v>
                 <v>60cafb1c-70d6-4027-a17f-8993ad19fe8a</v>
                 <v>GetClientData</v>
@@ -21799,14 +22113,16 @@
                 <v>5e59e91f-62bc-467c-8c37-64d850a36cbd</v>
                 <v>IsAntialiasingInactive</v>
                 <v>14c4c6b7-1144-42c3-9250-c16485f853aa</v>
+                <v>HasInputAccessIntern</v>
+                <v>aeb3cd2a-c171-4e53-b33d-0a0382860d3a</v>
                 <v>Initialize</v>
                 <v>9a438f58-4008-4772-8d33-2617e9acdb4a</v>
-                <v>HasInputAccess</v>
-                <v>7967d1de-302c-4b40-966f-6bab9f4b7a46</v>
+                <v>Destruct</v>
+                <v>e6255faf-8082-4725-a25d-7e452e21f5d7</v>
+                <v>SetStaticState</v>
+                <v>13bfaf3e-e625-4a44-a9c9-0d1aa45e8bc5</v>
                 <v>GetSurroundingRect</v>
                 <v>d1417afd-0898-431b-8797-8d07e4732915</v>
-                <v>ElementInfo</v>
-                <v>fe91024b-5c13-4b4b-b9a7-345cb5e6db1e</v>
                 <v>GetResult</v>
                 <v>1a8147b0-6ee0-4544-b0b0-054287a21b39</v>
                 <v>GetLocalUsergroup</v>
@@ -21829,8 +22145,8 @@
                 <v>4af74c42-48a6-4ddd-8205-c7befb383a2b</v>
                 <v>HandleInput</v>
                 <v>3f4db60d-e8cd-4e01-8014-aac31e5dd6bf</v>
-                <v>Destruct</v>
-                <v>e6255faf-8082-4725-a25d-7e452e21f5d7</v>
+                <v>ElementInfo</v>
+                <v>fe91024b-5c13-4b4b-b9a7-345cb5e6db1e</v>
               </d>
               <v n="FbName">"NotImportant"</v>
               <v n="FbGuid">{663b522c-a0dc-4b21-9db8-16638f0d0a2c}</v>
@@ -21843,10 +22159,10 @@
               <d n="FbMethods" t="CaseInsensitiveHashtable_1" ckt="String" cvt="Guid">
                 <v>FB_Init</v>
                 <v>78a78de6-cbeb-4285-b183-77e19cb9b2b1</v>
-                <v>FB_Reinit</v>
-                <v>332b7f7c-98b9-4a1c-8550-6dcfe8c0ec3e</v>
                 <v>FB_Exit</v>
                 <v>7f877ca7-8a5d-4283-b77d-8f94aa41c150</v>
+                <v>FB_Reinit</v>
+                <v>332b7f7c-98b9-4a1c-8550-6dcfe8c0ec3e</v>
               </d>
               <v n="FbName">"NotImportant"</v>
               <v n="FbGuid">{30b44cfd-c205-4643-b5cf-21c6c343bd7b}</v>
