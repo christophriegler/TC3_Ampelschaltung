@@ -1,7 +1,12 @@
 <?xml version="1.0"?>
 <TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4023.119">
-	<Project ProjectGUID="{68A86E09-C154-491D-81C0-42F9735DEB21}" ShowHideConfigurations="#x106">
+	<Project ProjectGUID="{68A86E09-C154-491D-81C0-42F9735DEB21}" Target64Bit="true" ShowHideConfigurations="#x106">
 		<System>
+			<Licenses>
+				<Target>
+					<ManualSelect>{19E93A3D-90D1-45B9-A28A-32DD8D2A166A}</ManualSelect>
+				</Target>
+			</Licenses>
 			<Tasks>
 				<Task Id="2" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
 					<Name>Standard</Name>
@@ -10,9 +15,12 @@
 		</System>
 		<Plc>
 			<Project GUID="{70B1A51C-DD42-46B6-AFCF-8AD7B878F8B1}" Name="Ampelschaltung" PrjFilePath="Ampelschaltung\Ampelschaltung.plcproj" TmcFilePath="Ampelschaltung\Ampelschaltung.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Ampelschaltung\Ampelschaltung.tmc">
 					<Name>Ampelschaltung Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+					<TaskPouOids>
+						<TaskPouOid Prio="20" OTCID="#x08502001"/>
+					</TaskPouOids>
 				</Instance>
 			</Project>
 		</Plc>
