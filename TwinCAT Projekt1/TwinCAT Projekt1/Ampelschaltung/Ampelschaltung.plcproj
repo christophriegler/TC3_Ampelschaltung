@@ -22,6 +22,9 @@
     <Compile Include="Global Variables\Global_Variables.TcGVL" />
     <Compile Include="Global Variables\Variable_Configuration.TcGVL" />
     <Compile Include="GlobalImagePool.TcGIPO" />
+    <Compile Include="GlobalTextList.TcGTLO">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\fb_Blink.TcPOU" />
     <Compile Include="POUs\MAIN.TcPOU" />
     <Compile Include="Standard.TcTTO" />
