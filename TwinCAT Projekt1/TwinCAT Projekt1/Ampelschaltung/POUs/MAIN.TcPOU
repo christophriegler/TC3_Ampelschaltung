@@ -39,7 +39,7 @@ END_VAR]]></Declaration>
 t3.IN := (t2.Q = FALSE);
 t2.IN := t3.Q;
 
-t3(PT:=t#1s);
+t3(PT:=T#3S);
 t2(PT:=t#1s);
 
 
