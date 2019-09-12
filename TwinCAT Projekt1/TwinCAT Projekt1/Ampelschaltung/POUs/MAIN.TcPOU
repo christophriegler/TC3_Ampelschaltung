@@ -11,7 +11,7 @@ VAR
 	iPhase : REAL;
 	bNacht : BOOL;
 
-	(*Ampel Nord-Süd*)
+	(*Ampel Nord-Süd*) (*Kommentar zum Test hinzugefügt*)
 	bNS_rot : BOOL;
 	bNS_orange : BOOL;
 	bNS_gruen : BOOL;
