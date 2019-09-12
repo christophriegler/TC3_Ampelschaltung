@@ -20,7 +20,7 @@ t2.IN := t1.Q;
 
 
 t1(PT:=t#1s);
-t2(PT:=t#2s);
+t2(PT:=t#2s); (*FEATUARE*)
 ]]></ST>
     </Implementation>
     <LineIds Name="fb_Blink">
